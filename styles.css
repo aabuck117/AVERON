@@ -652,3 +652,16 @@ section {
     .cursor-dot, .cursor-outline { display: none; }
     html { cursor: auto; }
 }
+/* Force all animated content to show */
+.reveal,
+.reveal.active,
+.hero,
+section,
+.bento-card,
+.service-box,
+.process-item,
+.cta-box {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: none !important;
+}
