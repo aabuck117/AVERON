@@ -421,7 +421,7 @@ section {
 /* Services Bento */
 .services-bento {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
     gap: 24px;
     margin-top: 60px;
 }
