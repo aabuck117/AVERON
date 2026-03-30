@@ -22,7 +22,7 @@
 
 html {
     scroll-behavior: smooth;
-    cursor: auto; /* Custom cursor */
+    cursor: none; /* Custom cursor */
 }
 
 body {
