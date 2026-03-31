@@ -667,3 +667,83 @@ section,
     visibility: visible !important;
     transform: none !important;
 }
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .nav-container,
+  .hero-content,
+  .section-container,
+  .services-grid,
+  .process-grid,
+  .results-grid,
+  .footer-container {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+    line-height: 1.1;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    line-height: 1.2;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .hero {
+    padding-top: 120px;
+    padding-bottom: 80px;
+  }
+
+  .services-grid,
+  .process-grid,
+  .results-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .navbar {
+    padding: 14px 20px;
+  }
+
+  .cta-group,
+  .button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+  }
+
+  .cta-group a,
+  .button-group a,
+  .btn,
+  .button {
+    width: 100%;
+    text-align: center;
+  }
+
+  img,
+  video {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .card,
+  .service-card,
+  .process-card {
+    width: 100%;
+  }
+}
