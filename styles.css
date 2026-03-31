@@ -634,8 +634,6 @@ section {
 .delay-2 { transition-delay: 0.2s; }
 
 
-/* Responsive */
-@media (max-width: 992px) {
   /* Responsive */
 @media (max-width: 992px) {
     .split-layout {
