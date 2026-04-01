@@ -107,9 +107,14 @@ h1, h2, h3, .logo, .footer-brand {
 }
 
 .section-title {
-    font-size: clamp(2.5rem, 5vw, 4.5rem);
+   font-size: clamp(2.5rem, 5vw, 4.5rem);
     letter-spacing: -0.02em;
     margin-bottom: 1.5rem;
+    max-width: 100%;
+    width: 100%;
+    word-break: normal;
+    overflow-wrap: normal;
+    hyphens: none;
 }
 
 .text-accent {
