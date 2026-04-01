@@ -826,3 +826,16 @@ section,
     visibility: visible !important;
     transform: none !important;
 }
+@media (max-width: 768px) {
+  .hero-title,
+  .section-title {
+    max-width: 100% !important;
+    width: 100% !important;
+    font-size: clamp(2rem, 8vw, 3rem) !important;
+    line-height: 1.05 !important;
+    word-break: normal !important;
+    overflow-wrap: anywhere !important;
+    hyphens: none !important;
+    overflow: visible !important;
+  }
+}
