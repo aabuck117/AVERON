@@ -814,3 +814,13 @@ section,
     visibility: visible !important;
     transform: none !important;
 }
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: clamp(2.2rem, 9vw, 3.2rem) !important;
+    line-height: 1.02 !important;
+    max-width: 10ch !important;
+    word-break: normal !important;
+    overflow-wrap: normal !important;
+    hyphens: none !important;
+  }
+}
