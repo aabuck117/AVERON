@@ -273,6 +273,7 @@ section {
     display: flex;
     align-items: center;
     padding-top: 120px;
+    width: 100%;
 }
 
 .hero-subtitle {
